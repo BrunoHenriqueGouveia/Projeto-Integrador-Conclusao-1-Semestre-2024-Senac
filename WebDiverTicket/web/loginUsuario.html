@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleLogin.css">
+
+        <title>login</title>
+    </head>
+
+    <body>
+        <header>
+            <!--logo-->
+            <a href="index.jsp"  class="logo"> Diver<br />Ticket<br /> </a>
+            <!--botoes header-->
+        </header>
+        <main>
+
+            <form action="loginConta.jsp" method="post">
+
+                <div class="conteudo">
+                    <label for="nomeLogin"><b>Nome de Usuario</b></label>
+                    <input type="text" placeholder="Insira seu email ou cpf" name="email" id="nomeLogin" required>
+
+                    <label for="senha"><b>Senha</b></label>
+                    <input type="password" placeholder="Insira senha" name="senha" id="senha" required>
+
+                    <button type="submit">Entrar</button>
+
+                </div>
+
+                <div class="conteudo" style="background-color:#f1f1f1">
+                    <a href="index.jsp"><button type="button" class="cancelarbtn">Cancelar</button></a>
+                    <a href="cadastroUsuario.html"><button type="button" class="cadastrobtn">Cadastre-se</button></a>
+
+                </div>
+            </form>
+        </main>
+        
+        <footer>
+
+            <!--links-->
+            <a class="link">termo de uso</a>
+            <a class="link">Política de privacidade</a>
+            <a class="link">Política de reembolso</a>
+            <!--logo em rodape-->
+            <a href="index.jsp" class="logo-rodape"> Diver<br />Ticket<br /></a>
+            <a class="link">Perguntas Frequente</a>
+            <a class="link">Informação de contatos</a>
+            <a class="link">Sobre Nos</a>
+
+        </footer>
+    </body>
+
+</html>

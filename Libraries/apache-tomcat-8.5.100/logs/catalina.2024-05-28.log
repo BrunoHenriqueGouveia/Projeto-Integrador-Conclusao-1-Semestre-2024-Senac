@@ -1,0 +1,58 @@
+28-May-2024 22:34:25.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.100
+28-May-2024 22:34:25.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 19 2024 13:54:42 UTC
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.100.0
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\dowlond\apache-tomcat-8.5.100
+28-May-2024 22:34:25.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\dowlond\apache-tomcat-8.5.100
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\dowlond\apache-tomcat-8.5.100\conf\logging.properties
+28-May-2024 22:34:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\dowlond\apache-tomcat-8.5.100
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\dowlond\apache-tomcat-8.5.100
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\dowlond\apache-tomcat-8.5.100\temp
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+28-May-2024 22:34:25.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2024 22:34:25.259 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+28-May-2024 22:34:25.315 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-May-2024 22:34:25.340 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 751 ms
+28-May-2024 22:34:25.385 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2024 22:34:25.385 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.100]
+28-May-2024 22:34:25.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\WebDiverTicket.xml]
+28-May-2024 22:34:25.487 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebDiverTicket] in deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\WebDiverTicket.xml] has been ignored
+28-May-2024 22:34:27.091 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-May-2024 22:34:27.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\WebDiverTicket.xml] has finished in [1,678] ms
+28-May-2024 22:34:27.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\ROOT]
+28-May-2024 22:34:27.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\ROOT] has finished in [21] ms
+28-May-2024 22:34:27.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\docs]
+28-May-2024 22:34:27.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\docs] has finished in [30] ms
+28-May-2024 22:34:27.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\examples]
+28-May-2024 22:34:28.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\examples] has finished in [832] ms
+28-May-2024 22:34:28.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\host-manager]
+28-May-2024 22:34:28.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\host-manager] has finished in [35] ms
+28-May-2024 22:34:28.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\manager]
+28-May-2024 22:34:28.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\dowlond\apache-tomcat-8.5.100\webapps\manager] has finished in [30] ms
+28-May-2024 22:34:28.105 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2024 22:34:28.133 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2791 ms
+28-May-2024 22:34:30.833 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\ExemploImagem.xml]
+28-May-2024 22:34:30.834 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ExemploImagem] in deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\ExemploImagem.xml] has been ignored
+28-May-2024 22:34:34.208 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-May-2024 22:34:34.212 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dowlond\apache-tomcat-8.5.100\conf\Catalina\localhost\ExemploImagem.xml] has finished in [3,379] ms
+28-May-2024 22:34:34.216 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ExemploImagem]] after start() had already been called. The second call will be ignored.
+28-May-2024 22:43:10.542 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2024 22:43:10.542 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2024 22:43:10.548 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2024 22:43:10.574 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2024 22:43:10.581 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

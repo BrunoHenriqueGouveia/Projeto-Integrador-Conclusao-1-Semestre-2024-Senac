@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleCadastro.css">
+        <title>Cadastre-se</title>
+
+    </head>
+
+    <body>
+        <header>
+            <!--logo-->
+            <a href="index.jsp" class="logo"> Diver<br />Ticket<br /></a>
+            <!--botoes header-->
+        </header>
+        <main>
+
+            <form action="salvarUsuario.jsp" method="post" onsubmit="return cadastrarUsuario()">
+
+                <div class="conteudo">
+                    <p>
+                        <label for="nome"><b>Nome</b></label><br>
+                        <input type="text" placeholder="Insira seu nome completo" name="nome" id="nome" required>
+
+                    </p>
+                    <p>
+                        <label for="idade"><b>idade</b></label><br>
+                        <input type="number" placeholder="Insira sua idade (Maior de 18 anos)" name="idade" id="idade"
+                               required>
+
+                    </p>
+
+                    <p>
+
+                        <label for="cpf"><b>Cpf</b></label><br>
+                        <input type="number" placeholder="Insira seu cpf" name="cpf" id="cpf" required>
+
+                    </p>
+
+                    <p>
+
+                        <label for="email"><b>Email</b></label><br>
+                        <input type="text" placeholder="Insira seu email" name="email" id="email" required>
+
+                    </p>
+                    <p>
+                        <label for="senha"><b>Senha</b></label><br>
+                        <input type="text" placeholder="Insira senha (min 6 caracteres)" name="senha" id="senha" required>
+
+                    </p>
+
+                    <button type="submit">Cadastrar</button>
+                </div>
+
+            </form>
+        </main>
+
+        <!-- =============================================================================================================== -->
+        <script>
+            const nomeUsuario = window.document.getElementById('nome');
+            const idade = document.getElementById('idade');
+            const cpf = document.getElementById('cpf');
+            const email = document.getElementById('email');
+            const senha = window.document.getElementById('senha');
+            const form = window.document.getElementsByTagName('form');
+
+            var regNome = new RegExp("[A-z]{3,100}");
+            var regEmail = new RegExp("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$");
+            var regCpf = new RegExp("[0-9]{11}");
+            var regSenha = new RegExp("^.{6,}$");
+
+
+            // validar dados do usuario para se cadastrar
+            function cadastrarUsuario() {
+                if (validarUsuario()) {
+                    return true;
+                } else {
+                    alert("Campo com erro");
+                    return false;
+                }
+            }
+            /* função para validar cliente*/
+            function validarUsuario() {
+                if (regNome.test(nomeUsuario.value) && idade.value > 17 && regCpf.test(cpf.value) && regEmail.test(email.value) && regSenha.test(senha.value)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+        </script>
+
+
+        <footer>
+            <!--links-->
+            <a class="link">termo de uso</a>
+            <a class="link">Política de privacidade</a>
+            <a class="link">Política de reembolso</a>
+            <!--logo em rodape-->
+            <a href="index.jsp" class="logo-rodape"> Diver<br />Ticket<br /></a>
+            <a class="link">Perguntas Frequente</a>
+            <a class="link">Informação de contatos</a>
+            <a class="link">Sobre Nos</a>
+
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 de mai. de 2024, 16:29:33
+    Author     : bruno
+*/
+
+
+.dropbtn {
+    background-color: white;
+    color: #074568;
+    border: 2px solid #f7faf9;
+    font-family: "Londrina Solid";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #CFCECE;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F3F5F8;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Londrina Solid";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.dropdown-content a {
+    color: #074568;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
